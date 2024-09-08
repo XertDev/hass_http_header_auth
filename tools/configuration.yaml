@@ -1,0 +1,19 @@
+default_config:
+
+http:
+  use_x_forwarded_for: true
+  trusted_proxies:
+    - 0.0.0.0/0
+http_header_auth:
+  user_header: "Remote-Name"
+  username_header: "Remote-User"
+  groups_header: "Remote-Groups"
+
+  users_group: "users"
+  admin_group: "admin"
+
+
+logger:
+  default: info
+  logs:
+    custom_components.http_header_auth: debug

@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "hass-http-header-auth"
+version = "0.1.0"
+description = ""
+authors = ["Xert <xertdev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.12,<3.13"
+
+[tool.poetry.dev-dependencies]
+homeassistant = "^2024.8.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

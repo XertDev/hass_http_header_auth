@@ -1,0 +1,14 @@
+{
+  "domain": "http_header_auth",
+  "name": "Authentication plugin for http headers",
+  "documentation": "",
+  "requirements": [],
+  "ssdp": [],
+  "zeroconf": [],
+  "homekit": {},
+  "dependencies": [
+    "auth"
+  ],
+  "codeowners": ["@XertDev"],
+  "version": "0.1"
+}
